@@ -73,7 +73,7 @@ namespace NPGridVarColsDemo.Views
                  * Important: SetFilterPropName is set to a dummy property name to allow enabling the filter textbox, but that is in fact driven by ColumnPropGetter in this case
                  * Commenting this line out will disable the filter textbox, even though it is not needed.
                 */ 
-                DataGridFilteringBehavior.SetFilterPropName(col, nameof(List<string>.Capacity));
+                //DataGridFilteringBehavior.SetFilterPropName(col, nameof(List<string>.Capacity));
                 DataGridFilteringBehavior.SetColumnPropGetter(col, funcColPropertyGetter);
                 i++;
             }
